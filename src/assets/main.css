@@ -1,0 +1,44 @@
+/*
+ * Continuous Scrolling Slideshow 
+ * Created by Joel Hooks | joelhooks@gmail.com 
+ * Feel free to use this however you like, but leave this comment intact.
+ */
+Label.slideshowControl
+{
+	color: #FFFFFF;
+	fontFamily: "Helvetica Neue";
+}
+@font-face
+{
+	fontFamily: "Helvetica Neue";
+	fontWeight: normal;
+	fontStyle: normal;
+	src: local("Helvetica Neue");
+}
+LinkButton.thumbNav
+{
+	color: #FFFFFF;
+	themeColor: #4E4E4E;
+	fontFamily: Helvetica;
+	paddingLeft: 2;
+	paddingRight: 2;
+	horizontalGap: 0;
+	rollOverColor: #5E5E5E;
+	selectionColor: #5B5B5B;
+	fontWeight: normal;
+	fontSize: 14;
+}
+@font-face
+{
+	fontFamily: Helvetica;
+	fontWeight: bold;
+	fontStyle: normal;
+	src: local("Helvetica");
+}
+@font-face
+{
+	fontFamily: Helvetica;
+	fontWeight: normal;
+	fontStyle: normal;
+	src: local("Helvetica");
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Continuous Scrolling Slideshow Demo
+	Created by Joel Hooks | joelhooks@gmail.com
+-->
+<mx:Application 
+	xmlns:mx="http://www.adobe.com/2006/mxml" 
+	layout="absolute" 
+	backgroundColor="#333333" 
+	xmlns:components="com.visualempathy.slideshow.view.components.*" 
+	viewSourceURL="srcview/index.html">
+    <components:ImageScroll />
+    <mx:Style source="assets/main.css"/>
+</mx:Application>
